@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+      "json-server": "^1.0.0-beta.3"
+    },
+  
+    "scripts": {
+      "start": "node server.js",
+      "backend": "json-server --watch users.json --port 8080"
+    }
+}

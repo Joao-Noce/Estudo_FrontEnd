@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #007BFF;
+    --secundary-color: #005EC2;
+    --bg-gray: #F4F4F4;
+    --bg-white: white;
+    --dark-gray: #CCC;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    background: var(--bg-gray);
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: flex-start;
+
+
+        form {
+            padding: 15px;
+            background: white;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            input {
+                padding: 10px;
+            }
+
+            .form_container_button {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+
+                button {
+                    padding: 4px 8px 4px 8px;
+                    cursor: pointer;
+                    background: var(--primary-color);
+                    color: white;
+                    border: none;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
