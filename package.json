@@ -5,6 +5,6 @@
   
     "scripts": {
       "start": "node server.js",
-      "backend": "json-server --watch users.json --port 8080"
+      "backend": "json-server --watch users.json --port 5000"
     }
 }
