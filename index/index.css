@@ -56,3 +56,20 @@ body {
         }
     }
 }
+
+
+.section_respostas {
+    display: flex;
+    justify-content: center;
+    background-color: #005EC2;
+    height: 80%;
+}
+
+
+#div_resposta {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
